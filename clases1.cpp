@@ -26,9 +26,9 @@ void	Persona::correr(){							//Inicializar metod correr
 }
 
 int	main(){
-	Persona	p1 = Persona(53, "Joaquin");
-	Persona	p2(18, "Lucia");
-	Persona	p3(14, "Elsa");
+	Persona	p1 = Persona(53, "Joaquin");			//Objeto p1 de la clase Persona
+	Persona	p2(18, "Lucia");						//Objeto p2 de la clase Persona
+	Persona	p3(14, "Elsa");							//Objeto p3 de la clase Persona
 
 	p1.leer();
 	p2.correr();
