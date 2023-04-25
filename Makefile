@@ -22,7 +22,8 @@ SRC = clases1.cpp\
 
 OBJS = $(SRC:.cpp=.o)
 
-.cpp.o: $(SRC)
+#.cpp.o: $(SRC)
+.o: $(SRC)
 	$(CC) $(CFLAGS) -c -o $@ $<
 
 $(NAME): $(OBJS)
